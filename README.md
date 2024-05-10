@@ -6,14 +6,11 @@ Tecnologias utilizadas:
 
 
 ## Caso não queira rodar o docker configure sua ide para o python 3.10 ou superior e execure via run
+### Run file:///home/eduardorodriguesdelfino/Documentos/laboratorio/extract-csv/src/img/run_script.png
 
+
+## Run com o docker
 ```
-file:///home/eduardorodriguesdelfino/Documentos/laboratorio/extract-csv/src/img/configure_sdk.png
-![run_script](https://github.com/eduardodelfinozup/extract-csv/assets/116813394/96499831-8cb3-475d-b8b2-fe7eb75404cd)
-
-
-```
-
 docker-compose up --build
 ```
 
