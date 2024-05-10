@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  extract-csv:
+    container_name: extract-csv
+    build: ./src
+    command: python extract_kafka_event.py run
+    ports:
+      - 5000:5000
+    restart: always
+    volumes:
+      - "/home/user/Documentos/extract-csv/src:/app"
+      
