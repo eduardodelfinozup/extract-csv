@@ -35,13 +35,13 @@ def extractKafkaEvent(readCsv, coluna, limiter):
             elif p4 > 0:
                 print(p1, p2, p4)
                 nextP = p4 - p2
-                kafkaEvent = payload_format(str(data[p1:p2  + nextP + 15] + "'"'}'))
+                kafkaEvent = payload_format(str('{'"'" + data[p1:p2  + nextP + 15] + "'"'}'))
                 extractCsv(topicEvent, kafkaEvent)
 
             elif p5 > 0:
                 print(p1, p2, p5)
                 nextP = p5 - p2
-                kafkaEvent = payload_format(str(data[p1:p2  + nextP + 14] + "'"'}'))
+                kafkaEvent = payload_format(str('{'"'" + data[p1:p2  + nextP + 14] + "'"'}'))
                 extractCsv(topicEvent, kafkaEvent)
 
             else:
