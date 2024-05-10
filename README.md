@@ -6,7 +6,7 @@ Tecnologias utilizadas:
 
 
 ## Caso não queira rodar o docker configure sua ide para o python 3.10 ou superior e execure via run
-### Run file:///home/eduardorodriguesdelfino/Documentos/laboratorio/extract-csv/src/img/run_script.png
+### Run ![run_script.png] (file:///home/eduardorodriguesdelfino/Documentos/laboratorio/extract-csv/src/img/run_script.png)
 
 
 ## Run com o docker
